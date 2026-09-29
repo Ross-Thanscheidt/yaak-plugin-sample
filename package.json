@@ -1,0 +1,17 @@
+{
+  "name": "Yaak Plugin Sample",
+  "private": true,
+  "version": "0.0.1",
+  "scripts": {
+    "build": "yaak plugin build",
+    "dev": "yaak plugin dev"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.3",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.2"
+  },
+  "dependencies": {
+    "@yaakapp/api": "^0.9.0"
+  }
+}
