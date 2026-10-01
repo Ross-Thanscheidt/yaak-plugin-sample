@@ -52,6 +52,8 @@ Describe what your plugin does.
     Node.js v24.15.0
     ```
 
+  Apparently this is a [known issue](https://github.com/nodejs/node/issues/61165) with Node.js v22 and higher.
+
 ## Using a Docker Container to Build the Yaak Plugin
 
 - Use a Docker container to build the Yaak Plugin on Windows as a way to avoid the error mentioned above:
